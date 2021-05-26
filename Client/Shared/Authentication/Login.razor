@@ -1,0 +1,65 @@
+﻿
+
+@inject IRepositories repository;
+@inject IJSRuntime JsRuntime;
+@inject NavigationManager Navigation;
+@inject IUserManager UserManager;
+@page "/login"
+@layout LoginLayout
+<div class="login_content">
+    <h1>Iniciar Sesión</h1>
+    <EditForm Model="User">
+        <div class="form-item">
+            <label class="label">Usuario</label>
+            <input type="email" placeholder="Usuario" class="form-input" @bind="User.Email">
+        </div>
+        <div class="form-item">
+            <label class="label">Contraseña</label>
+            <input type="password" placeholder="Contraseña" class="form-input" @bind="User.Password">
+        </div>
+        <div class="form-item">
+            <button class="btn primary" @onclick="LoginUser">Ingresar</button>
+        </div>
+        <div class="form-item">
+            <button class="btn primary" @onclick="LoginGoogle"><i class="bi bi-google"></i></button>
+        </div>
+        <div class="form-item">
+            <button class="btn primary" @onclick="Register">Regístrate</button>
+        </div>
+    </EditForm>
+</div>
+
+@code {
+    [CascadingParameter]
+    public Error Error { get; set; }
+
+
+    User User = new User();
+
+    private void LoginGoogle()
+    {
+        try
+        {
+            Console.WriteLine("evento");
+            Navigation.NavigateTo("user/GoogleSignIn", true);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("error");
+            Console.WriteLine(ex);
+            Error.ProcessError(ex);
+        }
+
+    }
+
+
+    private void Register()
+    {
+        Console.WriteLine("evento2");
+        Navigation.NavigateTo("register");
+    }
+    public async Task LoginUser()
+    {
+        await UserManager.LoginUser(User, () => this.Navigation.NavigateTo("/profile", true));
+    }
+}

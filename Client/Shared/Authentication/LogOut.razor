@@ -1,0 +1,16 @@
+﻿@inject IUserManager UserManager;
+@inject NavigationManager Navigation;
+
+<div class="top-row px-4">
+    <h4><b>Hellos, @context.User.Identity.Name</b></h4>
+    <button class="btn btn-primary" @onclick="LogOutSession">Log Out</button>
+</div>
+@code {
+    [Parameter]
+    public AuthenticationState context { get; set; }
+    public async Task LogOutSession()
+    {
+        await UserManager.LogOutUser(() => Navigation.NavigateTo("/login", true));
+    }
+
+}

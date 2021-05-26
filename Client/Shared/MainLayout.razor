@@ -1,0 +1,64 @@
+﻿@inherits LayoutComponentBase
+@inject NavigationManager Navigation;
+@inject IRepositories repository;
+@inject IJSRuntime JsRuntime;
+@inject IUserManager UserManager;
+@using System.Security.Claims
+<AuthorizeView>
+    <Authorizing>
+        <Spinner />
+    </Authorizing>
+    <Authorized>
+        <div class="wrapper">
+            <div class="sidebar_wrapper">
+                <NavMenu />
+            </div>
+
+            <div class="main">
+                @*<div class="top-row px-4">
+                    <h4><b>Hellos, @context.User.Identity.Name</b></h4>
+                    <button class="btn btn-primary">Log Out</button>
+                </div>*@
+                <LogOut context="context"/>
+                <div class="content">
+                    @Body
+                </div>
+            </div>
+
+        </div>
+        <style>
+            .main {
+                width: 100%;
+                margin-left: 12em;
+                position: relative;
+                height: 95vh;
+            }
+
+            .wrapper {
+                justify-content: flex-start;
+            }
+
+            .sidebar_wrapper {
+                width: 5%;
+                position: fixed;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                height: 100vh;
+            }
+
+            .content {
+                padding-top: 30px;
+                width: 95%;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+            }
+        </style>
+    </Authorized>
+    <NotAuthorized>
+        <LoginLayout />
+    </NotAuthorized>
+</AuthorizeView>
+
+    

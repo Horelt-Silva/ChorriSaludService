@@ -1,0 +1,117 @@
+﻿
+<div class="sidebar">
+    <div class="brand">
+        <a href="#" class="brand_logo">
+            <img src="./statics/logoB.png" alt="">
+        </a>
+    </div>
+    <div class="nav">
+        <ul class="pt-4 ">
+            <li class="nav-item">
+                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                    <i class="bi bi-house"></i>
+                </NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                    <i class="bi bi-bookmark"></i>
+                </NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                    <i class="bi bi-house"></i>
+                </NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                    <i class="bi bi-bookmark"></i>
+                </NavLink>
+            </li>
+
+        </ul>
+    </div>
+
+</div>
+<style>
+    ul {
+        padding-left: 0;
+    }
+
+    .sidebar_wrapper {
+        width: 15%;
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 100vh;
+    }
+
+    .bi {
+        color: white;
+        font-size: 24px;
+    }
+
+    .nav-link {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sidebar {
+        height: 95vh;
+        background-color: #2a00a2;
+        width: 80%;
+        border-radius: 24px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 32px 64px 0 rgba(17, 17, 17, 0.08);
+    }
+
+    .nav {
+        justify-content: center;
+        display: flex;
+        height: 80%;
+    }
+
+        .nav ul {
+            list-style-type: none;
+            height: 40%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+    .nav-link {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-item {
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+        .nav-item:hover {
+            background-color: #5f2eea;
+        }
+
+
+    /* Brand */
+
+    .brand {
+        height: 20%;
+        padding-top: 20px;
+    }
+
+    .brand_logo {
+        display: flex;
+        justify-content: center;
+    }
+
+        .brand_logo img {
+            width: 30% !important;
+        }
+</style>

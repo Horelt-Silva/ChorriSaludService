@@ -1,0 +1,29 @@
+﻿@inject NavigationManager Navigation;
+@inherits LayoutComponentBase
+
+<div class="wrapper">
+    @Body
+</div>
+<style>
+    h1 {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .bi-google {
+        color: white;
+        font-size: 16px;
+    }
+
+    .login_content {
+        border-radius: 24px;
+        background-color: rgba(252, 252, 252, 1);
+        padding: 30px;
+    }
+</style>
+@code{
+    protected override async Task OnInitializedAsync()
+    {
+        Navigation.NavigateTo("/login");
+    }
+}

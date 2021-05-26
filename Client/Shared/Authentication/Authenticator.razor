@@ -1,0 +1,14 @@
+﻿@page "/authenticathor/{action}"
+@inherits LayoutComponentBase
+@inject NavigationManager Navigation;
+@*<RemoteAuthenticatorView Action="@Action" />*@
+
+@code{
+    [Parameter] public string Action { get; set; }
+    public virtual void OnInitialized()
+    {
+        Console.WriteLine("llegue al authenticator");
+        Navigation.NavigateTo("/login");
+    }
+}
+

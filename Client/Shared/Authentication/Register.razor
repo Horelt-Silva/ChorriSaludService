@@ -1,0 +1,44 @@
+﻿@inherits LayoutComponentBase
+@using ReCreateVersion.Client.ViewModels
+@* Por alguna razon me pide este using de viewModels *@
+@page "/register"
+@layout LoginLayout
+@using Microsoft.AspNetCore.Components.Authorization
+@using System.Security.Claims
+@inject IRepositories repository;
+@inject NavigationManager Navigation;
+@inject IUserManager UserManager;
+
+
+<div class="login_content">
+    <h1>Regístrate</h1>
+    <EditForm Model="User">
+
+        <div class="form-item">
+            <label class="label">Usuario</label>
+            <input type="email" placeholder="Usuario" class="form-input" @bind="User.Email">
+        </div>
+        <div class="form-item">
+            <label class="label">Contraseña</label>
+            <input type="password" placeholder="Contraseña" class="form-input" @bind="User.Password">
+        </div>
+
+        <div class="form-item">
+            <button class="btn primary" type="submit" @onclick="Create">Regístrate</button>
+        </div>
+
+    </EditForm>
+
+</div>
+@code{
+
+    User User = new User();
+    public async Task Create()
+    {
+
+        Console.WriteLine(User.Email);
+        Console.WriteLine(User.Password);
+        await UserManager.AddUser(User, () => { this.Navigation.NavigateTo("/profile", true); });
+    }
+
+}
