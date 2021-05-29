@@ -5,7 +5,7 @@ using System.Net.Http;
 using System.Text.Json;
 using System.Text;
 
-namespace ReCreateVersion.Client.Repositories
+namespace ChorriSaludService.Client.Repositories
 {
   public class Repositorie : IRepositories
     {

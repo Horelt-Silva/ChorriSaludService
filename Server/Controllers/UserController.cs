@@ -4,15 +4,15 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using ReCreateVersion.Server.Context;
-using ReCreateVersion.Shared.Models;
+using ChorriSaludService.Server.Context;
+using ChorriSaludService.Shared.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace ReCreateVersion.Server.Controllers
+namespace ChorriSaludService.Server.Controllers
 {
     [ApiController]
     [Route("[controller]")]

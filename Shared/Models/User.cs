@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReCreateVersion.Shared.Models
+namespace ChorriSaludService.Shared.Models
 {
     public class User
     {
@@ -15,11 +15,13 @@ namespace ReCreateVersion.Shared.Models
         public string Source { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-
+        public string DNI { get; set; }
         public long Roles_Id { get; set; }
         public string ProfilePictureUrl { get; set; }
         public string AboutMe { get; set; }
         public long? Notifications { get; set; }
+        public string Phone { get; set; }
+
         [Timestamp]
         public byte[] CreatedAt { get; set; }
    

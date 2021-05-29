@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ReCreateVersion.Server.Context;
+using ChorriSaludService.Server.Context;
 
-namespace ReCreateVersion.Server.Migrations
+namespace ChorriSaludService.Server.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20210517183036_m1")]
@@ -21,7 +21,7 @@ namespace ReCreateVersion.Server.Migrations
                 .HasAnnotation("ProductVersion", "5.0.6")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("ReCreateVersion.Shared.Models.Role", b =>
+            modelBuilder.Entity("ChorriSaludService.Shared.Models.Role", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -36,7 +36,7 @@ namespace ReCreateVersion.Server.Migrations
                     b.ToTable("Roles");
                 });
 
-            modelBuilder.Entity("ReCreateVersion.Shared.Models.User", b =>
+            modelBuilder.Entity("ChorriSaludService.Shared.Models.User", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()

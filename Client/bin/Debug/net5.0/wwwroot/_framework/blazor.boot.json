@@ -2,7 +2,7 @@
   "cacheBootResources": true,
   "config": [ ],
   "debugBuild": true,
-  "entryAssembly": "ReCreateVersion.Client",
+  "entryAssembly": "ChorriSaludService.Client",
   "icuDataMode": 0,
   "linkerEnabled": false,
   "resources": {
@@ -246,13 +246,13 @@
       "mscorlib.dll": "sha256-jU85t8bOVm2PPQRkPJ1kS0nCJIyBjjlet2IR1d9m+RI=",
       "netstandard.dll": "sha256-B6gmXEMfYgOuaOR1g1cGHLn2kDlZYAah4K2XNUZbTs4=",
       "System.Private.CoreLib.dll": "sha256-XY0bl1U8F\/iSbQzkmIHM8UtE\/R9VntZoy\/kMbvuMjTA=",
-      "ReCreateVersion.Shared.dll": "sha256-\/3XKgafNwaYl0bO\/GVcjWo1O9aXHIMG2OETBJnzXFYk=",
-      "ReCreateVersion.Client.dll": "sha256-K3bP4GHAi7NtCZqGthJrLwxfnBocQjRGRF9QJQfgcM0="
+      "ChorriSaludService.Shared.dll": "sha256-IQjkXCZmaVZMPXNOOtpNmsbmukmUq3P+jhFvKjosNHw=",
+      "ChorriSaludService.Client.dll": "sha256-vvJiSETGeZsEwSBxDS0qOJQXSBSo0ykChb0h7Pda2Ps="
     },
     "lazyAssembly": null,
     "pdb": {
-      "ReCreateVersion.Shared.pdb": "sha256-7TvDxgjJfntkxFXcSpr1VThP2DzZlCkX1eGBncZhDd0=",
-      "ReCreateVersion.Client.pdb": "sha256-lKHVZewNct5YvBCjKNOo7tpU3ffxv4+uJQIWzp53AbI="
+      "ChorriSaludService.Shared.pdb": "sha256-5qqwc3DQN9jpT4DDDPfu8\/r1mwcdgzU6TwWWY3aRRPY=",
+      "ChorriSaludService.Client.pdb": "sha256-mC68JGtlSfSXbmOScvSdmBU7cgBXBbaWVZRkanP4dIY="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-OEDZp6noMH3AdT8qd0zd7ZXzy2CsPQ+CZeQnYmRoVWo=",

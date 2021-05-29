@@ -5,7 +5,7 @@
       "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     },
     {
-      "hash": "sha256-g2a0UQYEuWboJTxrsCBVRH7sBUTrRsBQ\/BvBJ8+A9m4=",
+      "hash": "sha256-XYaOENEejYs\/+glF9tP6g5CLD2cnCJaZCiSmCXdRJww=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -993,20 +993,20 @@
       "url": "_framework\/dotnet.5.0.6.js"
     },
     {
-      "hash": "sha256-\/3XKgafNwaYl0bO\/GVcjWo1O9aXHIMG2OETBJnzXFYk=",
-      "url": "_framework\/ReCreateVersion.Shared.dll"
+      "hash": "sha256-IQjkXCZmaVZMPXNOOtpNmsbmukmUq3P+jhFvKjosNHw=",
+      "url": "_framework\/ChorriSaludService.Shared.dll"
     },
     {
-      "hash": "sha256-7TvDxgjJfntkxFXcSpr1VThP2DzZlCkX1eGBncZhDd0=",
-      "url": "_framework\/ReCreateVersion.Shared.pdb"
+      "hash": "sha256-5qqwc3DQN9jpT4DDDPfu8\/r1mwcdgzU6TwWWY3aRRPY=",
+      "url": "_framework\/ChorriSaludService.Shared.pdb"
     },
     {
-      "hash": "sha256-K3bP4GHAi7NtCZqGthJrLwxfnBocQjRGRF9QJQfgcM0=",
-      "url": "_framework\/ReCreateVersion.Client.dll"
+      "hash": "sha256-vvJiSETGeZsEwSBxDS0qOJQXSBSo0ykChb0h7Pda2Ps=",
+      "url": "_framework\/ChorriSaludService.Client.dll"
     },
     {
-      "hash": "sha256-lKHVZewNct5YvBCjKNOo7tpU3ffxv4+uJQIWzp53AbI=",
-      "url": "_framework\/ReCreateVersion.Client.pdb"
+      "hash": "sha256-mC68JGtlSfSXbmOScvSdmBU7cgBXBbaWVZRkanP4dIY=",
+      "url": "_framework\/ChorriSaludService.Client.pdb"
     },
     {
       "hash": "sha256-dl8FVRvWOJfOtzIC\/x66QNnBNsT9cAOMrn22GB8fJ8U=",
@@ -1997,11 +1997,11 @@
       "url": "_framework\/dotnet.5.0.6.js.gz"
     },
     {
-      "hash": "sha256-e6wZKSaVH5pALB7yXLJWorrVFe14rmFU12gEcr8MPyg=",
-      "url": "_framework\/ReCreateVersion.Shared.dll.gz"
+      "hash": "sha256-J10gR89sNbchiXXR9KvZoI06PgSvZLj3yO9\/HC70tc0=",
+      "url": "_framework\/ChorriSaludService.Shared.dll.gz"
     },
     {
-      "hash": "sha256-fHgllOZb1IHPemk5UmBB7aul3c90lJcZp4Ct3+v0Kbw=",
+      "hash": "sha256-RUPUfa44eSUfNSDLQw63GqEaBV4aRjMenSqDV7MNtmE=",
       "url": "css\/app.css"
     },
     {
@@ -2009,7 +2009,7 @@
       "url": "css\/normalize.css"
     },
     {
-      "hash": "sha256-pmhY084jBacHpOsTYzE4aXNnfHi\/qa4s2M5GL\/zWz+c=",
+      "hash": "sha256-JCjpb3w4c3kTUXeraGe0hPIA0bN6xDxU4j6CVR9DU54=",
       "url": "index.html"
     },
     {
@@ -2017,21 +2017,21 @@
       "url": "js\/Select.js"
     },
     {
-      "hash": "sha256-NoJoixdofErnmwQnY74lnKHIKL+3XFiVPEseWeWtTvk=",
+      "hash": "sha256-RC744O4hyUJnwiZgtrWj9beddJHz\/6G8uqXMcKzXqNg=",
       "url": "manifest.json"
     },
     {
-      "hash": "sha256-NaVhv58gw2RM2hJSV\/n1fYcEodBOfCXYpHMLBKjAEL8=",
-      "url": "statics\/LogoB.png"
+      "hash": "sha256-YYJxDIPfy2i07GVGlKqf\/174O\/q42vSCIMiuHj10o0E=",
+      "url": "statics\/Logo-CHORRISALUD-FACTURA.png"
     },
     {
-      "hash": "sha256-USEOf93v6nspNWbWXjXZG+FHF\/7p1I\/P85DuczgaARc=",
-      "url": "ReCreateVersion.Client.styles.css"
+      "hash": "sha256-IAmqwf509rArZl8Lw96x88a2IrlIAAFeNAgI2SV3BC0=",
+      "url": "ChorriSaludService.Client.styles.css"
     },
     {
-      "hash": "sha256-+JCPgARzzlsDQ0GXO+YGkqvmOgmihME1UYjWLfxLNkM=",
-      "url": "ReCreateVersion.Client.bundle.scp.css"
+      "hash": "sha256-a6FQ2G+rV6zkrrYwneshNumrxQZHhAit2+fF3zdiTus=",
+      "url": "ChorriSaludService.Client.bundle.scp.css"
     }
   ],
-  "version": "5z0TO5j6"
+  "version": "ztMoyufS"
 };

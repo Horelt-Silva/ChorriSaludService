@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using ReCreateVersion.Shared.Models;
+using ChorriSaludService.Shared.Models;
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
@@ -12,7 +12,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReCreateVersion.Client
+namespace ChorriSaludService.Client
 {
     public class CustomAuthenticationStateProvider : AuthenticationStateProvider
     {

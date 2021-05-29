@@ -8312,9 +8312,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Shared\\ReCreateVersion.Shared.csproj",
-      "projectName": "ReCreateVersion.Shared",
-      "projectPath": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Shared\\ReCreateVersion.Shared.csproj",
+      "projectUniqueName": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Shared\\ChorriSaludService.Shared.csproj",
+      "projectName": "ChorriSaludService.Shared",
+      "projectPath": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Shared\\ChorriSaludService.Shared.csproj",
       "packagesPath": "C:\\Users\\hosiv\\.nuget\\packages\\",
       "outputPath": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Shared\\obj\\",
       "projectStyle": "PackageReference",

@@ -2775,10 +2775,11 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "ReCreateVersion.Client/1.0.0": {
+      "ChorriSaludService.Client/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "ChorriSaludService.Shared": "1.0.0",
           "Microsoft.AspNetCore.Authorization": "5.0.6",
           "Microsoft.AspNetCore.Components.Authorization": "5.0.6",
           "Microsoft.AspNetCore.Components.WebAssembly": "5.0.6",
@@ -2788,17 +2789,16 @@
           "Microsoft.EntityFrameworkCore.Relational": "5.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.6",
           "Microsoft.Extensions.Http": "5.0.0",
-          "ReCreateVersion.Shared": "1.0.0",
           "System.Net.Http.Json": "5.0.0"
         },
         "compile": {
-          "bin/placeholder/ReCreateVersion.Client.dll": {}
+          "bin/placeholder/ChorriSaludService.Client.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ReCreateVersion.Client.dll": {}
+          "bin/placeholder/ChorriSaludService.Client.dll": {}
         }
       },
-      "ReCreateVersion.Shared/1.0.0": {
+      "ChorriSaludService.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
@@ -2814,10 +2814,10 @@
           "System.ComponentModel.Annotations": "5.0.0"
         },
         "compile": {
-          "bin/placeholder/ReCreateVersion.Shared.dll": {}
+          "bin/placeholder/ChorriSaludService.Shared.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ReCreateVersion.Shared.dll": {}
+          "bin/placeholder/ChorriSaludService.Shared.dll": {}
         }
       }
     }
@@ -8860,19 +8860,21 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "ReCreateVersion.Client/1.0.0": {
+    "ChorriSaludService.Client/1.0.0": {
       "type": "project",
-      "path": "../Client/ReCreateVersion.Client.csproj",
-      "msbuildProject": "../Client/ReCreateVersion.Client.csproj"
+      "path": "../Client/ChorriSaludService.Client.csproj",
+      "msbuildProject": "../Client/ChorriSaludService.Client.csproj"
     },
-    "ReCreateVersion.Shared/1.0.0": {
+    "ChorriSaludService.Shared/1.0.0": {
       "type": "project",
-      "path": "../Shared/ReCreateVersion.Shared.csproj",
-      "msbuildProject": "../Shared/ReCreateVersion.Shared.csproj"
+      "path": "../Shared/ChorriSaludService.Shared.csproj",
+      "msbuildProject": "../Shared/ChorriSaludService.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "ChorriSaludService.Client >= 1.0.0",
+      "ChorriSaludService.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.Google >= 5.0.6",
       "Microsoft.AspNetCore.Authorization >= 5.0.6",
       "Microsoft.AspNetCore.Components.Authorization >= 5.0.6",
@@ -8882,9 +8884,7 @@
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.6",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.6",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.6",
-      "Microsoft.Extensions.Http >= 5.0.0",
-      "ReCreateVersion.Client >= 1.0.0",
-      "ReCreateVersion.Shared >= 1.0.0"
+      "Microsoft.Extensions.Http >= 5.0.0"
     ]
   },
   "packageFolders": {
@@ -8894,9 +8894,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Server\\ReCreateVersion.Server.csproj",
-      "projectName": "ReCreateVersion.Server",
-      "projectPath": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Server\\ReCreateVersion.Server.csproj",
+      "projectUniqueName": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Server\\ChorriSaludService.Server.csproj",
+      "projectName": "ChorriSaludService.Server",
+      "projectPath": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Server\\ChorriSaludService.Server.csproj",
       "packagesPath": "C:\\Users\\hosiv\\.nuget\\packages\\",
       "outputPath": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Server\\obj\\",
       "projectStyle": "PackageReference",
@@ -8919,11 +8919,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Client\\ReCreateVersion.Client.csproj": {
-              "projectPath": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Client\\ReCreateVersion.Client.csproj"
+            "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Client\\ChorriSaludService.Client.csproj": {
+              "projectPath": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Client\\ChorriSaludService.Client.csproj"
             },
-            "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Shared\\ReCreateVersion.Shared.csproj": {
-              "projectPath": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Shared\\ReCreateVersion.Shared.csproj"
+            "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Shared\\ChorriSaludService.Shared.csproj": {
+              "projectPath": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Shared\\ChorriSaludService.Shared.csproj"
             }
           }
         }

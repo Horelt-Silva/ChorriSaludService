@@ -3,7 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Net.Http;
 
-namespace ReCreateVersion.Client.Repositories
+namespace ChorriSaludService.Client.Repositories
 {
    interface IRepositories
     {

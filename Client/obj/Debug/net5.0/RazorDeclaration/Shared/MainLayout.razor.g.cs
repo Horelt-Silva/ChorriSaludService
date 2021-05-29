@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace ReCreateVersion.Client.Shared
+namespace ChorriSaludService.Client.Shared
 {
     #line hidden
     using System;
@@ -13,140 +13,140 @@ namespace ReCreateVersion.Client.Shared
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "C:\Users\hosiv\Downloads\CapaB-sica-master\CapaB-sica-master\Client\_Imports.razor"
+#line 1 "E:\Hosivi\ChorriSaludService\ChorriSaludService\Client\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\hosiv\Downloads\CapaB-sica-master\CapaB-sica-master\Client\_Imports.razor"
+#line 2 "E:\Hosivi\ChorriSaludService\ChorriSaludService\Client\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\hosiv\Downloads\CapaB-sica-master\CapaB-sica-master\Client\_Imports.razor"
+#line 3 "E:\Hosivi\ChorriSaludService\ChorriSaludService\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\hosiv\Downloads\CapaB-sica-master\CapaB-sica-master\Client\_Imports.razor"
+#line 4 "E:\Hosivi\ChorriSaludService\ChorriSaludService\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\hosiv\Downloads\CapaB-sica-master\CapaB-sica-master\Client\_Imports.razor"
+#line 5 "E:\Hosivi\ChorriSaludService\ChorriSaludService\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\hosiv\Downloads\CapaB-sica-master\CapaB-sica-master\Client\_Imports.razor"
+#line 6 "E:\Hosivi\ChorriSaludService\ChorriSaludService\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "C:\Users\hosiv\Downloads\CapaB-sica-master\CapaB-sica-master\Client\_Imports.razor"
+#line 7 "E:\Hosivi\ChorriSaludService\ChorriSaludService\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "C:\Users\hosiv\Downloads\CapaB-sica-master\CapaB-sica-master\Client\_Imports.razor"
+#line 8 "E:\Hosivi\ChorriSaludService\ChorriSaludService\Client\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "C:\Users\hosiv\Downloads\CapaB-sica-master\CapaB-sica-master\Client\_Imports.razor"
-using ReCreateVersion.Client;
+#line 9 "E:\Hosivi\ChorriSaludService\ChorriSaludService\Client\_Imports.razor"
+using ChorriSaludService.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "C:\Users\hosiv\Downloads\CapaB-sica-master\CapaB-sica-master\Client\_Imports.razor"
-using ReCreateVersion.Client.Shared;
+#line 10 "E:\Hosivi\ChorriSaludService\ChorriSaludService\Client\_Imports.razor"
+using ChorriSaludService.Client.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "C:\Users\hosiv\Downloads\CapaB-sica-master\CapaB-sica-master\Client\_Imports.razor"
-using ReCreateVersion.Client.Repositories;
+#line 11 "E:\Hosivi\ChorriSaludService\ChorriSaludService\Client\_Imports.razor"
+using ChorriSaludService.Client.Repositories;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 12 "C:\Users\hosiv\Downloads\CapaB-sica-master\CapaB-sica-master\Client\_Imports.razor"
-using ReCreateVersion.Shared;
+#line 12 "E:\Hosivi\ChorriSaludService\ChorriSaludService\Client\_Imports.razor"
+using ChorriSaludService.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 13 "C:\Users\hosiv\Downloads\CapaB-sica-master\CapaB-sica-master\Client\_Imports.razor"
-using ReCreateVersion.Client.ViewModels;
+#line 13 "E:\Hosivi\ChorriSaludService\ChorriSaludService\Client\_Imports.razor"
+using ChorriSaludService.Client.ViewModels;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 14 "C:\Users\hosiv\Downloads\CapaB-sica-master\CapaB-sica-master\Client\_Imports.razor"
-using ReCreateVersion.Shared.Models;
+#line 14 "E:\Hosivi\ChorriSaludService\ChorriSaludService\Client\_Imports.razor"
+using ChorriSaludService.Shared.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 15 "C:\Users\hosiv\Downloads\CapaB-sica-master\CapaB-sica-master\Client\_Imports.razor"
-using ReCreateVersion.Client.Shared.Authentication;
+#line 15 "E:\Hosivi\ChorriSaludService\ChorriSaludService\Client\_Imports.razor"
+using ChorriSaludService.Client.Shared.Authentication;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 16 "C:\Users\hosiv\Downloads\CapaB-sica-master\CapaB-sica-master\Client\_Imports.razor"
-using ReCreateVersion.Client.Shared.Utilities;
+#line 16 "E:\Hosivi\ChorriSaludService\ChorriSaludService\Client\_Imports.razor"
+using ChorriSaludService.Client.Shared.Utilities;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 17 "C:\Users\hosiv\Downloads\CapaB-sica-master\CapaB-sica-master\Client\_Imports.razor"
+#line 17 "E:\Hosivi\ChorriSaludService\ChorriSaludService\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 18 "C:\Users\hosiv\Downloads\CapaB-sica-master\CapaB-sica-master\Client\_Imports.razor"
+#line 18 "E:\Hosivi\ChorriSaludService\ChorriSaludService\Client\_Imports.razor"
 using Microsoft.AspNetCore.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 19 "C:\Users\hosiv\Downloads\CapaB-sica-master\CapaB-sica-master\Client\_Imports.razor"
-using ReCreateVersion.Client.Shared.Components;
+#line 19 "E:\Hosivi\ChorriSaludService\ChorriSaludService\Client\_Imports.razor"
+using ChorriSaludService.Client.Shared.Components;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\hosiv\Downloads\CapaB-sica-master\CapaB-sica-master\Client\Shared\MainLayout.razor"
+#line 6 "E:\Hosivi\ChorriSaludService\ChorriSaludService\Client\Shared\MainLayout.razor"
 using System.Security.Claims;
 
 #line default

@@ -1,6 +1,6 @@
 {
-  "name": "ReCreateVersion",
-  "short_name": "ReCreateVersion",
+  "name": "ChorriSaludService",
+  "short_name": "ChorriSaludService",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",

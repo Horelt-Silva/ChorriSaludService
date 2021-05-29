@@ -4,12 +4,12 @@
     "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Server\\ReCreateVersion.Server.csproj": {}
   },
   "projects": {
-    "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Client\\ReCreateVersion.Client.csproj": {
+    "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Client\\ChorriSaludService.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Client\\ReCreateVersion.Client.csproj",
-        "projectName": "ReCreateVersion.Client",
-        "projectPath": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Client\\ReCreateVersion.Client.csproj",
+        "projectUniqueName": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Client\\ChorriSaludService.Client.csproj",
+        "projectName": "ChorriSaludService.Client",
+        "projectPath": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Client\\ChorriSaludService.Client.csproj",
         "packagesPath": "C:\\Users\\hosiv\\.nuget\\packages\\",
         "outputPath": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Client\\obj\\",
         "projectStyle": "PackageReference",
@@ -158,8 +158,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Client\\ReCreateVersion.Client.csproj": {
-                "projectPath": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Client\\ReCreateVersion.Client.csproj"
+              "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Client\\ChorriSaludService.Client.csproj": {
+                "projectPath": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Client\\ChorriSaludService.Client.csproj"
               },
               "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Shared\\ReCreateVersion.Shared.csproj": {
                 "projectPath": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Shared\\ReCreateVersion.Shared.csproj"

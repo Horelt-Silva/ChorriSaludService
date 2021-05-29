@@ -7,19 +7,29 @@
 <style>
     h1 {
         text-align: center;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
     }
-
-    .bi-google {
+    .login_content {
+        /*width: 300px;
+        height: 300px;*/
+        transition: all 0.3s ease;
+        padding: 10px;
+        /*position: absolute;*/
+        background-color: rgba(252, 252, 252, 1);
+        border: 1px solid #e2e6ec;
+        border-radius: 6px;
+        -webkit-box-shadow: 0 20px 40px 0 rgb(0 0 0 / 10%);
+    }
+/*    .bi-google {
         color: white;
         font-size: 16px;
-    }
+    }*/
 
-    .login_content {
+   /* .login_content {
         border-radius: 24px;
         background-color: rgba(252, 252, 252, 1);
         padding: 30px;
-    }
+    }*/
 </style>
 @code{
     protected override async Task OnInitializedAsync()

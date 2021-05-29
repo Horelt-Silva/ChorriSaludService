@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "29Mrd911G41GW88JomiAitg0cNfURe8JWJzxQr6CwgEWYb2TVMoGRj0R1JeBm5ACKTkX+sMNwV3TiwvbcUPKZg==",
+  "dgSpecHash": "impT2k344GK1oZHmViUpfKqMgGbdG4MU5xdHIoMPwS+rh4yzLPIbzl6JS+r+9L5lVpU/WDQxtw95xQ+t47xq6A==",
   "success": true,
-  "projectFilePath": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Client\\ReCreateVersion.Client.csproj",
+  "projectFilePath": "E:\\Hosivi\\ChorriSaludService\\ChorriSaludService\\Client\\ChorriSaludService.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hosiv\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\hosiv\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

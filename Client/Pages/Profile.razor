@@ -11,45 +11,58 @@
 @using System.Security.Claims
 
 
-<div class="card">
+<div class="card col-6">
     <EditForm model="User">
-        <div class="d-flex flex-column">
-            <div class="row">Register</div>
-            <div class="form-item">
-                <label class="label">Nombres:</label>
-                <input type="text" @bind="User.FirstName" class="form-input" placeholder="Nombres" />
+        <div class="row pl-1"><h5>Register</h5></div>
+        <div class="row">
+            <div class="col">
+                <div class="form-item left">
+                    <label class="label">Nombres:</label>
+                    <input type="text" @bind="User.FirstName" class="form-input" placeholder="Nombres" />
+                </div>
+                <div class="form-item left">
+                    <label class="label">Apellidos:</label>
+                    <input type="text" @bind="User.LastName" class="form-input" placeholder="Apellidos" />
+                </div>
+                <div class="form-item left">
+                    <label class="label">Email:</label>
+                    <input type="text" @bind="User.Email" class="form-input" placeholder="Email" />
+                </div>
             </div>
-            <div class="form-item">
-                <label class="label">Apellidos:</label>
-                <input type="text" @bind="User.LastName" class="form-input" placeholder="Apellidos" />
-            </div>
-            <div class="form-item">
-                <label class="label">Email:</label>
-                <input type="text" @bind="User.Email" class="form-input" placeholder="Email" />
-            </div>
-            <div class="form-item">
-                <label class="label label-textarea" for="textarea">Sobre ti:</label>
-                <textarea type="text" @bind="User.AboutMe" class="form-input" placeholder="Escribe una nota sobre ti" id="textarea" />
-            </div>
-
-            <div class="form-select mt-1">
-                <Select PlaceHolder="Roles">
-                    @if (Lista != null)
-                    {
-                    @foreach (var rol in Lista)
-                        {
-                        <li value="@rol.Id" @onclick="@(() => { AddRole(rol.Id); })">@rol.Roles</li>
-                        }
-                     }
-                    
-                </Select>
-            </div>
-            <div class="form-item">
-                <button class="btn btn-primary" @onclick="OnSave">Guardar</button>
+            <div class="col">
+                <div class="form-item left">
+                    <label class="label">Teléfono:</label>
+                    <input type="text" @bind="User.Phone" class="form-input" placeholder="Teléfono" />
+                </div>
+                <div class="form-item left">
+                    <label class="label">Teléfono:</label>
+                    <input type="text" @bind="User.DNI" class="form-input" placeholder="Teléfono" />
+                </div>
+                <div class="form-item submit-button">
+                    <button class="btn" @onclick="OnSave">Guardar</button>
+                </div>
             </div>
         </div>
     </EditForm>
 </div>
+<style>
+    .card
+    {
+        justify-content:left;
+     
+    }
+    .submit-button
+    {
+        height:90px;
+        justify-content:center;
+        align-items:flex-end;
+    }
+    .submit-button .btn
+    {
+        margin-bottom:10px;
+        margin-top:10px;
+    }
+</style>
 
 
 

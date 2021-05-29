@@ -1,0 +1,15 @@
+E:\Hosivi\ChorriSaludService\ChorriSaludService\Shared\bin\Debug\net5.0\ChorriSaludService.Shared.deps.json
+E:\Hosivi\ChorriSaludService\ChorriSaludService\Shared\bin\Debug\net5.0\ChorriSaludService.Shared.runtimeconfig.json
+E:\Hosivi\ChorriSaludService\ChorriSaludService\Shared\bin\Debug\net5.0\ChorriSaludService.Shared.runtimeconfig.dev.json
+E:\Hosivi\ChorriSaludService\ChorriSaludService\Shared\bin\Debug\net5.0\ChorriSaludService.Shared.dll
+E:\Hosivi\ChorriSaludService\ChorriSaludService\Shared\bin\Debug\net5.0\ref\ChorriSaludService.Shared.dll
+E:\Hosivi\ChorriSaludService\ChorriSaludService\Shared\bin\Debug\net5.0\ChorriSaludService.Shared.pdb
+E:\Hosivi\ChorriSaludService\ChorriSaludService\Shared\obj\Debug\net5.0\ChorriSaludService.Shared.csprojAssemblyReference.cache
+E:\Hosivi\ChorriSaludService\ChorriSaludService\Shared\obj\Debug\net5.0\ChorriSaludService.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hosivi\ChorriSaludService\ChorriSaludService\Shared\obj\Debug\net5.0\ChorriSaludService.Shared.AssemblyInfoInputs.cache
+E:\Hosivi\ChorriSaludService\ChorriSaludService\Shared\obj\Debug\net5.0\ChorriSaludService.Shared.AssemblyInfo.cs
+E:\Hosivi\ChorriSaludService\ChorriSaludService\Shared\obj\Debug\net5.0\ChorriSaludService.Shared.csproj.CoreCompileInputs.cache
+E:\Hosivi\ChorriSaludService\ChorriSaludService\Shared\obj\Debug\net5.0\ChorriSaludService.Shared.dll
+E:\Hosivi\ChorriSaludService\ChorriSaludService\Shared\obj\Debug\net5.0\ref\ChorriSaludService.Shared.dll
+E:\Hosivi\ChorriSaludService\ChorriSaludService\Shared\obj\Debug\net5.0\ChorriSaludService.Shared.pdb
+E:\Hosivi\ChorriSaludService\ChorriSaludService\Shared\obj\Debug\net5.0\ChorriSaludService.Shared.genruntimeconfig.cache

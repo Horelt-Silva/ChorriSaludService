@@ -1,7 +1,7 @@
-using ReCreateVersion.Client.ViewModels;
+using ChorriSaludService.Client.ViewModels;
 using Microsoft.AspNetCore.Components;
-using ReCreateVersion.Client.Repositories;
-using ReCreateVersion.Shared.Models;
+using ChorriSaludService.Client.Repositories;
+using ChorriSaludService.Shared.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ using System.Net.Http.Json;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
-namespace ReCreateVersion.Client.ViewModels
+namespace ChorriSaludService.Client.ViewModels
 {
    public class UserManager : IUserManager
     {

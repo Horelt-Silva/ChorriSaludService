@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace ReCreateVersion.Server.Migrations
+namespace ChorriSaludService.Server.Migrations
 {
     public partial class m1 : Migration
     {

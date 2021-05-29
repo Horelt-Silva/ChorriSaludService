@@ -7,10 +7,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using ReCreateVersion.Server.Context;
+using ChorriSaludService.Server.Context;
 using System.Linq;
 
-namespace ReCreateVersion.Server
+namespace ChorriSaludService.Server
 {
     public class Startup
     {

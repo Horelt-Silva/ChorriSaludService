@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReCreateVersion.Shared.Models
+namespace ChorriSaludService.Shared.Models
 {
     class ClassRoom
     {

@@ -1,14 +1,14 @@
-using ReCreateVersion.Client.ViewModels;
+using ChorriSaludService.Client.ViewModels;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Threading.Tasks;
-using ReCreateVersion.Client.Repositories;
+using ChorriSaludService.Client.Repositories;
 using System.Net.Http;
 using Microsoft.Extensions.Configuration;
 
-namespace ReCreateVersion.Client
+namespace ChorriSaludService.Client
 {
     public class Program
     {

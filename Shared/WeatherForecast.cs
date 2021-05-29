@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ReCreateVersion.Shared
+namespace ChorriSaludService.Shared
 {
     public class WeatherForecast
     {

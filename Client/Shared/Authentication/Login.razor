@@ -18,16 +18,15 @@
             <input type="password" placeholder="Contraseña" class="form-input" @bind="User.Password">
         </div>
         <div class="form-item">
-            <button class="btn primary" @onclick="LoginUser">Ingresar</button>
-        </div>
-        <div class="form-item">
-            <button class="btn primary" @onclick="LoginGoogle"><i class="bi bi-google"></i></button>
-        </div>
-        <div class="form-item">
+            <button class="btn primary mb-1" @onclick="LoginUser">Ingresar</button>
             <button class="btn primary" @onclick="Register">Regístrate</button>
         </div>
+      
     </EditForm>
 </div>
+<style>
+
+</style>
 
 @code {
     [CascadingParameter]

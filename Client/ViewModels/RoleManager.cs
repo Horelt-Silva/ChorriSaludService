@@ -1,12 +1,12 @@
-﻿using ReCreateVersion.Client.Repositories;
-using ReCreateVersion.Shared.Models;
+﻿using ChorriSaludService.Client.Repositories;
+using ChorriSaludService.Shared.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace ReCreateVersion.Client.ViewModels
+namespace ChorriSaludService.Client.ViewModels
 {
     public class RoleManager : IRoleManager
     {
